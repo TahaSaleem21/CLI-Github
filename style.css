@@ -88,7 +88,9 @@ a {
 .text-green {
   color: var(--color-green);
 }
-
+.text-brown {
+  color: rgb(216, 125, 51);
+}
 .hover-link {
   color: var(--gcolor);
 }
@@ -344,13 +346,11 @@ a {
 
 /* Position Relative Section */
 .pos-rel-sec {
- 
   align-items: center;
   background-image: url(https://images.assetsdelivery.com/compings_v2/bravissimos/bravissimos1806/bravissimos180600772.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  
 }
 
 .cr1 {

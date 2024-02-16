@@ -1,256 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Github CLI | Take Github to the command line</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="dark-mode">
-        <!-- Header -->
-        <div>
-            <header class="color-bg">
-                <nav class="main-header flex">
-                    <!-- <div class="header-left flex"> -->
-                    <a class="text-grey header-left flex" href="#"><img class="header-logo"
-                            src="https://pbs.twimg.com/profile_images/1656643448118689794/Muhd9bb9_400x400.jpg" alt="Github-logo"> CLI</a>
-                    <!-- <a class="text-grey" href="#">CLI</a> -->
-                    <!-- </div> -->
-                    <div class="header-right">
-                        <a class="text-grey" href="#">Manual</a>
-                        <a class="text-grey" href="#">Release notes</a>
-                    </div>
-                </nav>
-            </header>
+      <!-- Header -->
+      <div>
+        <header class="color-bg">
+          <nav class="main-header flex">
+            <!-- <div class="header-left flex"> -->
+            <a class="text-grey header-left flex" href="#"
+              ><img
+                class="header-logo"
+                src="https://pbs.twimg.com/profile_images/1656643448118689794/Muhd9bb9_400x400.jpg"
+                alt="Github-logo"
+              />
+              CLI</a
+            >
+            <!-- <a class="text-grey" href="#">CLI</a> -->
+            <!-- </div> -->
+            <div class="header-right">
+              <a class="text-grey" href="#">Manual</a>
+              <a class="text-grey" href="#">Release notes</a>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!-- Hero Section -->
+
+      <main id="main">
+        <div class="container color-bg">
+          <div class="hero-section flex color-bg">
+            <h1 class="h1-txt">Take GitHub to the command line</h1>
+            <p class="text-dark-grey p1-txt">
+              GitHub CLI brings GitHub to your terminal. Free and open source.
+            </p>
+            <a href="#" class="btn">Download for Windows</a>
+            <a href="#" class="lst-1">View installation instructions →</a>
+          </div>
+        </div>
+        <!-- Position Relative Section -->
+        <div class="container pos-rel-sec">
+          <div class="container upper-pr flex">
+            <h3 class="h3prs-txt">
+              <span class="text-blue span-d">$</span>
+              <span>&nbsp; gh pr status </span>
+            </h3>
+            <p class="pprs-txt">Check on the status of your pull requests.</p>
+            <div
+              class="main-pos-rel-middle"
+              style="height: 480px; border: 1px solid rgba(255, 255, 255, 0.1)"
+            >
+              <div class="pos-rel-middle">
+                <div class="main-circle-div">
+                  <div class="prs-circle"></div>
+                  <div class="prs-circle"></div>
+                  <div class="prs-circle"></div>
+                </div>
+                <div class="play-pause-btn">
+                  <div class="pause-btn" hidden="true">
+                    <a href="#">
+                      <img
+                        class="pause-butn"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR2F5VHfWpSMEQgpb5DSCzPMTBLvYqoZmKptv_e56SB6IfBLp9ZcbiOtNnryx87FmpSw&usqp=CAU"
+                        alt="pause-btn"
+                      />
+                    </a>
+                  </div>
+                  <div class="play-btn">
+                    <a href="#">
+                      <img
+                        class="play-butn"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg7E7_qvFJ36Cp7QBd0RQWBo_6GS08JBs8AQ&usqp=CAU"
+                        alt="play-btn"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="pos-middle-txt">
+                <div class="pos-m-span-txt">
+                  <div>
+                    <span>$ gh pr status</span>
+                  </div>
+                  <div>
+                    <span> - Relevant pull requests in cli/cli</span>
+                  </div>
+                  <div><span class="text-green">✓</span>Current branch</div>
+                  <br />
+                  <div>
+                    <span
+                      >There is no pull request associated with
+                      [fix-homepage-bug]
+                    </span>
+                  </div>
+                  <br />
+                  <div>
+                    <strong class="text-white">Created by you <br /></strong>
+                    <span class="text-gray"
+                      >You have no open pull requests</span
+                    >
+                  </div>
+                  <br />
+                  <div>
+                    <span class="text-white"
+                      >Requesting a code review from you</span
+                    >
+                  </div>
+                  <div>
+                    <span>
+                      <span
+                        class="d-inline-block text-green"
+                        style="width: 30px"
+                        >#100%</span
+                      >
+                      <span>Fix footer on homepage [fix-homepage-footer]</span
+                      ><br />
+                      <span class="text-green">✓ Checks Passing </span
+                      ><span class="text-brown">- Review pending</span>
+                    </span>
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="prs-div container flex">
+            <a class="inst" href="#">View all GitHub CLI commands →</a>
+          </div>
         </div>
 
-        <!-- Hero Section -->
-
-        <main id="main">
-            <div class="container color-bg">
-                <div class="hero-section flex color-bg">
-                    <h1 class="h1-txt">Take GitHub to the command line</h1>
-                    <p class="text-dark-grey p1-txt">GitHub CLI brings GitHub to your terminal. Free and open source.
-                    </p>
-                    <a href="#" class="btn">Download for Windows</a>
-                    <a href="#" class="lst-1">View installation instructions →</a>
-                </div>
-            </div>
-            <!-- Position Relative Section -->
-            <div class="container pos-rel-sec">
-                
-                <div class="container upper-pr flex">
-                    <h3 class="h3prs-txt">
-                        <span class="text-blue span-d">$</span>
-                        <span>&nbsp;  gh pr status
-                           </span>
-                    </h3>
-                    <p class="pprs-txt"> Check on the status of your pull requests.</p>
-                    <div class="main-pos-rel-middle" style="height: 480px;
-                    border: 1px solid rgba(255, 255, 255, 0.1);">
-                        <div class="pos-rel-middle">
-                            <div class="main-circle-div">
-                                <div class="prs-circle"></div>
-                                <div class="prs-circle"></div>
-                                <div class="prs-circle"></div>
-                            </div>
-                            <div class="play-pause-btn">
-                                <div class="pause-btn" hidden="true">
-                                    <a href="#">
-                                        <img class="pause-butn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZR2F5VHfWpSMEQgpb5DSCzPMTBLvYqoZmKptv_e56SB6IfBLp9ZcbiOtNnryx87FmpSw&usqp=CAU" alt="pause-btn">
-                                    </a>
-                                </div>
-                                <div class="play-btn">
-                                    <a href="#">
-                                        <img class="play-butn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg7E7_qvFJ36Cp7QBd0RQWBo_6GS08JBs8AQ&usqp=CAU" alt="play-btn">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pos-middle-txt">
-                            <div class="pos-m-span-txt">
-                                <div>
-                                    <span>$ gh pr status</span>
-                                </div>
-                                <div>
-                                    <span>
-                                        - Relevant pull requests in cli/cli</span>
-                                </div>
-                                <div>
-                                    <span class="text-green">✓</span>Current branch
-                                </div>
-                                <br>
-                                <div>
-                                    <span>There is no pull request associated with [fix-homepage-bug]
-                                    </span>
-                                </div>
-                                <br>
-                                <div>
-                                    <strong class="text-white">Created by you <br></strong>
-                                        <span class="text-gray">You have no open pull requests</span>  
-                                        
-                                </div>
-                                <br>
-                                <div>
-                                    
-                                       
-                                        <span class="text-white">Requesting a code review from you</span>
-                                      
-                                    </span>
-                                </div>
-                                <div>
-                                    <span>
-                                        <span class="d-inline-block text-green" style="width: 30px">#100%</span>
-                                        <span>Fix footer on homepage [fix-homepage-footer]</span><br>
-                                        <span class="text-green">✓ Checks Passing </span><span class="text-brown">- Review pending</span>
-                                    </span>
-                                </div>
-                                <br>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="prs-div container flex">
-                    <a class="inst" href="#">View all GitHub CLI commands →</a>
-                </div>
-            </div>
-    </div>
-    <div class="light-mode">
-        <!-- Lower Position Relative Section -->
-        <div class="container low-pos-rel">
+        <div class="light-mode">
+          <!-- Lower Position Relative Section -->
+          <div class="container low-pos-rel">
             <div class="low-pos">
-                <h2 class="h2-txt">
-                    Goodbye, context switching. Hello, terminal.
-                </h2>
-                <div class="low-con flex">
-                    <div class="low-con-txt flex">
-                        <h3 class="h3-txt">Your entire GitHub workflow</h3>
-                        <p class="p2-txt">Work with issues, pull requests, checks, releases and more.</p>
-                        <a class="con-lnk" href="#">View all GitHub CLI commands →</a>
-                    </div>
-
-                    <div class="low-con-txt flex">
-                        <h3 class="h3-txt">Script and customize</h3>
-                        <p class="p2-txt">Call the GitHub API to script almost any action, and set a custom alias
-                            for
-                            any
-                            command.</p>
-                        <a class="con-lnk" href="#">Learn about aliases and API →</a>
-                    </div>
-
-                    <div class="low-con-txt flex">
-                        <h3 class="h3-txt">Enterprise-ready</h3>
-                        <p class="p2-txt">Connect to GitHub Enterprise Server in addition to GitHub.com.</p>
-                        <a class="con-lnk" href="#">Get set up with Enterprise →</a>
-                    </div>
-
-                    <div class="low-con-txt flex">
-                        <h3 class="h3-txt">We &lt;3 community</h3>
-                        <p class="p2-txt">GitHub CLI is open source and ready for your contributions.</p>
-                        <a class="con-lnk" href="#">Contribute to CLI →</a>
-                    </div>
+              <h2 class="h2-txt">
+                Goodbye, context switching. Hello, terminal.
+              </h2>
+              <div class="low-con flex">
+                <div class="low-con-txt flex">
+                  <h3 class="h3-txt">Your entire GitHub workflow</h3>
+                  <p class="p2-txt">
+                    Work with issues, pull requests, checks, releases and more.
+                  </p>
+                  <a class="con-lnk" href="#">View all GitHub CLI commands →</a>
                 </div>
+
+                <div class="low-con-txt flex">
+                  <h3 class="h3-txt">Script and customize</h3>
+                  <p class="p2-txt">
+                    Call the GitHub API to script almost any action, and set a
+                    custom alias for any command.
+                  </p>
+                  <a class="con-lnk" href="#">Learn about aliases and API →</a>
+                </div>
+
+                <div class="low-con-txt flex">
+                  <h3 class="h3-txt">Enterprise-ready</h3>
+                  <p class="p2-txt">
+                    Connect to GitHub Enterprise Server in addition to
+                    GitHub.com.
+                  </p>
+                  <a class="con-lnk" href="#">Get set up with Enterprise →</a>
+                </div>
+
+                <div class="low-con-txt flex">
+                  <h3 class="h3-txt">We &lt;3 community</h3>
+                  <p class="p2-txt">
+                    GitHub CLI is open source and ready for your contributions.
+                  </p>
+                  <a class="con-lnk" href="#">Contribute to CLI →</a>
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- Part 2 -Lower Position Relative section -->
-        <div class="container low-pos-rel-2">
+          </div>
+          <!-- Part 2 -Lower Position Relative section -->
+          <div class="container low-pos-rel-2">
             <div class="pos-rel-2">
-                <div class="pos-container">
-                    <div class="pos-upper">
-                        <h2 class="pos-h2">Try GitHub on the command&nbsp;line</h2>
-                        <p class="pos-p">GitHub CLI brings GitHub to your terminal. Free and open source.</p>
-                        <div class="btn-2"><a href="#">Download for Windows</a></div>
-                        <div class="lst-pos"><a href="#">View installation instructions</a></div>
-                    </div>
+              <div class="pos-container">
+                <div class="pos-upper">
+                  <h2 class="pos-h2">Try GitHub on the command&nbsp;line</h2>
+                  <p class="pos-p">
+                    GitHub CLI brings GitHub to your terminal. Free and open
+                    source.
+                  </p>
+                  <div class="btn-2"><a href="#">Download for Windows</a></div>
+                  <div class="lst-pos">
+                    <a href="#">View installation instructions</a>
+                  </div>
                 </div>
+              </div>
             </div>
             <div class="pos-rel-2-img">
-                <img src="https://cli.github.com/assets/images/square-pattern.png" alt="square-pattern" height="440" width="1800">
+              <img
+                src="https://cli.github.com/assets/images/square-pattern.png"
+                alt="square-pattern"
+                height="440"
+                width="1800"
+              />
             </div>
-
+          </div>
         </div>
-    </div>
-    </main>
+      </main>
 
-    <!-- Footer -->
-    <footer>
+      <!-- Footer -->
+      <footer>
         <div class="main-footer container flex">
-            <div class="footer-img">
-                <a href="#" class="main-logo">
-                    <img class="footer-logo" src="https://static.vecteezy.com/system/resources/previews/016/833/880/non_2x/github-logo-git-hub-icon-with-text-on-white-background-free-vector.jpg" alt="Logo">
-                </a>
+          <div class="footer-img">
+            <a href="#" class="main-logo">
+              <img
+                class="footer-logo"
+                src="https://static.vecteezy.com/system/resources/previews/016/833/880/non_2x/github-logo-git-hub-icon-with-text-on-white-background-free-vector.jpg"
+                alt="Logo"
+              />
+            </a>
+          </div>
+          <div class="footer-txt flex">
+            <div class="link-column flex">
+              <h4 class="hover-head">Product</h4>
+              <ul>
+                <li class="hover-link"><a href="#">Feature</a></li>
+                <li class="hover-link"><a href="#">Security</a></li>
+                <li class="hover-link"><a href="#">Enterprise</a></li>
+                <li class="hover-link"><a href="#">Customer stories</a></li>
+                <li class="hover-link"><a href="#">Pricing</a></li>
+                <li class="hover-link"><a href="#">Resources</a></li>
+              </ul>
             </div>
-            <div class="footer-txt flex ">
-                <div class="link-column flex">
-                    <h4 class="hover-head">Product</h4>
-                    <ul>
-                        <li class="hover-link"><a href="#">Feature</a></li>
-                        <li class="hover-link"><a href="#">Security</a></li>
-                        <li class="hover-link"><a href="#">Enterprise</a></li>
-                        <li class="hover-link"><a href="#">Customer stories</a></li>
-                        <li class="hover-link"><a href="#">Pricing</a></li>
-                        <li class="hover-link"><a href="#">Resources</a></li>
-                    </ul>
-                </div>
-                <div class="link-column flex">
-                    <h4 class="hover-head">Platform</h4>
-                    <ul>
-                        <li class="hover-link"><a href="#">Developer API</a></li>
-                        <li class="hover-link"><a href="#">Partners</a></li>
-                        <li class="hover-link"><a href="#">Atom</a></li>
-                        <li class="hover-link"><a href="#">Electron</a></li>
-                        <li class="hover-link"><a href="#">GitHub Desktop</a></li>
-                    </ul>
-                </div>
-                <div class="link-column flex">
-                    <h4 class="hover-head">Support</h4>
-                    <ul>
-                        <li class="hover-link"><a href="#">Help</a></li>
-                        <li class="hover-link"><a href="#">Community Forum</a></li>
-                        <li class="hover-link"><a href="#">Professional Services</a></li>
-                        <li class="hover-link"><a href="#">Learning Lab</a></li>
-                        <li class="hover-link"><a href="#">Status</a></li>
-                        <li class="hover-link"><a href="#">Contact GitHub</a></li>
-                    </ul>
-                </div>
-                <div class="link-column flex">
-       
+            <div class="link-column flex">
+              <h4 class="hover-head">Platform</h4>
+              <ul>
+                <li class="hover-link"><a href="#">Developer API</a></li>
+                <li class="hover-link"><a href="#">Partners</a></li>
+                <li class="hover-link"><a href="#">Atom</a></li>
+                <li class="hover-link"><a href="#">Electron</a></li>
+                <li class="hover-link"><a href="#">GitHub Desktop</a></li>
+              </ul>
+            </div>
+            <div class="link-column flex">
+              <h4 class="hover-head">Support</h4>
+              <ul>
+                <li class="hover-link"><a href="#">Help</a></li>
+                <li class="hover-link"><a href="#">Community Forum</a></li>
+                <li class="hover-link">
+                  <a href="#">Professional Services</a>
+                </li>
+                <li class="hover-link"><a href="#">Learning Lab</a></li>
+                <li class="hover-link"><a href="#">Status</a></li>
+                <li class="hover-link"><a href="#">Contact GitHub</a></li>
+              </ul>
+            </div>
+            <div class="link-column flex"></div>
+            <h4 class="hover-head">Company</h4>
+            <ul>
+              <li class="hover-link"><a href="#">About</a></li>
+              <li class="hover-link"><a href="#">Blog</a></li>
+              <li class="hover-link"><a href="#">Careers</a></li>
+              <li class="hover-link"><a href="#">Professional</a></li>
+              <li class="hover-link"><a href="#">Shop</a></li>
+            </ul>
+          </div>
         </div>
-        <h4 class="hover-head">Company</h4>
-        <ul>
-            <li class="hover-link"><a href="#">About</a></li>
-            <li class="hover-link"><a href="#">Blog</a></li>
-            <li class="hover-link"><a href="#">Careers</a></li>
-            <li class="hover-link"><a href="#">Professional</a></li>
-            <li class="hover-link"><a href="#">Shop</a></li>
-        </ul>
-    </div>
-</div>
-</div>
-</footer>
+      </footer>
 
-<!-- Sub-footer -->
-<div class="color-sub-footer">
-<div class="container sub-footer flex ">
-<ul class="left-sub-footer flex">
-    <li class="name-footer">© 2024 GitHub, Inc.
-    </li>
-    <li class="link-s-footer"><a href="#">Terms</a></li>
-    <li class="link-s-footer"><a href="#">Privacy</a></li>
-</ul>
-<ul class="right-sub-footer flex">
-    <li><a href="#"><img class="s-footer-img" src="./assets/twitter-icon.png" alt=""></a></li>
-    <li><a href="#"><img class="s-footer-img" src="./assets/fb-icon.png" alt=""></a></li>
-    <li><a href="#"><img class="s-footer-img" src="./assets/youtube-icon.png" alt=""></a></li>
-    <li><a href="#"><img class="s-footer-img" src="./assets/linkedin-icon.png" alt=""></a></li>
-    <li><a href="#"><img class="s-footer-img" src="./assets/git-icon.png" alt=""></a></li>
-</ul>
+      <!-- Sub-footer -->
+      <div class="color-sub-footer">
+        <div class="container sub-footer flex">
+          <ul class="left-sub-footer flex">
+            <li class="name-footer">© 2024 GitHub, Inc.</li>
+            <li class="link-s-footer"><a href="#">Terms</a></li>
+            <li class="link-s-footer"><a href="#">Privacy</a></li>
+          </ul>
+          <ul class="right-sub-footer flex">
+            <li>
+              <a href="#"
+                ><img
+                  class="s-footer-img"
+                  src="data:image/png;base64,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"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="s-footer-img"
+                  src="data:image/png;base64,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"
+                  alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="s-footer-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStXsA-50eICK51XX3CiZWAWIgGbvih1lseRQ&usqp=CAU"
+                  alt="Youtube"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="s-footer-img"
+                  src="data:image/jpeg;base64,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"
+                  alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="s-footer-img"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAV1BMVEX///+Ojo6KioqHh4eLi4v8/PyPj4/5+fmcnJyWlpb19fXr6+uvr6+SkpLa2trGxsanp6fk5OTv7+/Pz8+jo6O2trbX19ff39+8vLzFxcWtra3S0tKBgYHIS9e4AAALDklEQVR4nO1da5OqOBAdkiAPQUFBGd3//zsXdJxBCemTkAe3ivNpa2suckj63el8fW3YsGHDhg0bNmzYsGHDP4K8vp+7tkrTLCujMsvStGq7873OQ7/YciT7e1dlvAdjokf0xPCfjA3/O6u6+z4J/ZqGOB26ZtdTe9GSQ/REd013OIV+XU3E1zaLKHJvNKOsvcahXxtFfm76pQPJ/aFfzOb8D0hmfq44R9duspacVysnebhFxvReJKPbITSNOeTf5UJ6L5Ll9xoXcl8YyN4cGC/2oQl94Hqzsnx/EPx2DU1qhLqxzO/JsalDE/vBvnLA78mxWsNezQtH/J4ci9A6Jz5G9vSLDCw6BnV1rplbfgN4Fk7lJAV3zu/BsQgUfVx27hfwCba7BODnawGfCLCMdelrAZ9gpWfj+O1zAZ/g3x75JZV/gj3FyttO3XuwETKwzJOLc3HoxKghuBedGkAE/+BDGNuQBHuKrWuCQXTMG8XKKb8kDaNjxmCpQ5W6BoJOKa6DoEOKSRbKSnxCZE4oJulaCPYUXaxi3Kxjiz7BGvuRf7Umgj1F60bDazSIgBd2CR7XRrCneLRJ8LA+gj1FixWc/bpk8AVmLZiKd+uxE2OInS2FelvnEvaLeLNDcIVa5gU72uaqIChGLSRuQPwCt5APj3fzz981RVGlJd50oQfBWZneiqJR/I0FUSzmhZA990i+P1fCeu5mKOif98/KU6t4h8WG/6LYo+yvzSe5NBaL3EOZuzr8Ode14iWWJqdyxVuI5u1PT521OgYvu7eyYZyp/npZhVGxR1+b9A/Jd2lD7fLs/Clcim26cJ+q9GjEppWE5CiWriOLJvwIr3GRPlXo0SgqZWosadU6h7Augneyp6qEpden5gQ71YKImQjtNEk4PjotWVSWWfpEVpZDGxubsOW3GaFSCiLrTAmelJ97Ioa/uP9W3obeSpFW7fFS70958lqeOMlP+/r+3VYpG/Vnsmw2WmjVK2/au6lSM8rg5VE9HdilQ3+syibHeX3u0idL3s4nX87KVzFVNiorNDBUfbhrb0uOcE0zro+pUJZAlSqvfxez8imRW+PKf5zoJsNypft1UjMUqeavPUDF9czkoaaIiZcxivep9GhmnYYKBEOTRaSW0GxjGINyJAwWkVrCD6/UNQiCBh+czK55Zqj0rh6LqOu7VVS853mXkuHnnIs1hz0dJKxK0wyLqJdbVIUrP/BqLRKaIdOq8AMPjLjPvk9gT0Vcx8k4AlGe0muzDcJrey6iTmpRGay8GPo8+IF8ch3NUCPPYz476QoklSdJOswB0DOeDSKyqTR0TVIiz1ua5NIBWPwqUV0DVgs9CiIkhhpvBG16XQO0CA32RgJ8oxh6WiRKj7sUrRlgNhrdpD5P7NgVHHVe6/dhd8ek3tFBFMFtCn0tW+VXGFhHFpQcRlxADcVsC5goQqKjTk2+nuT/EMs35GidgSeRsW/kPfx9QFWM/nsxIA6GHBrDDOwy3BHxAaQHcZCEbzXzBOKcAl1EZyTWDHNAF1lETgsi4LKFkMIBiADRFjEG7I5nY/8HZT3z9fUpxy0HNOku1OljSEdQLwfYe93MpEUgG4xSNYA0B7D2LwBWnxQhYKtrZe3sgijaDiCL+oBH4zfZ/Q4LMkRbVTSQdgIg2KcWABDDULZiACKI6ifk1isgdqFqJHy9n9pcAKIcUNFg76d2KYFvZK193ARAyYgwZnT4G8opfQIIEokgmJbkgB7NgJRmqK6n0BULYfm8kSZoc0Ekqm90vTykOUQYEuH54k/kGrTPRdTEaOc98BoCDNWqkBbk1e/SSM0QcEvXrmkIx5TOhATKs70AxMCl8gG0QQ1sD4GMorp2Qf/71fs0BEMgXxcyAP6KgVyUepciaeWQnjcQ3RFLADAMGj0hpT81QyRdF3IwNVDtJhQFYG68dnt9AihuEl4b7XljRUhXQPL6aoMNdCkEdb2BPUa4lVDtwxMbGYCqCpESRor4RLrOJRBjQUgRkIkKmU5EGmmJTBSQrQuZEgaEiMomEieoHggYPyFtQ5S9RvodgnmmOdJwQqkJqN8h1CRxqH+P+v5Iv5DXDu8xkMZXMn5FZHnNvRh0hRRppwllL6BNSjbUIOZiwfHwRQCcZqCbCek26SmGiIIRSwZ0myAdQ1BvlX0gKgLoGAIb9dW5ECfAdhfgjkCqJsQiQkuIvJjt4ym2oB5h8Qug+xI8EuRdnapHWGh9ecSrwT6WTYAHLqCMPNTJPsyBdc5qhBg8NAMlkbDTCJ73KTo9FfO20DNGHnsU8bF/0OOwU0E9hC9RhIeLgnlAJBnyAz/pb8hXfgAcrIBK9TBe0wdF6FTyzwuB/jJ4wnJ4Yul+o17xeYVwBkljpq6IXF/GBBqvB+CSCnrS+flUqwOLJ9C6bAJ3JaHT6r8UK3eHE/Zak/w1Kiq48no8OHK1jJ3eYFSdw0rQAf/Ro1MX+UXtO8F0/EjZ+XfxuJpZ/lEFr2xzvKS6czS1Jn9IWnFFca/3h2Ml5D/cc7SoVZN7qj/UVq/BYGISf72F5D4zpFSwzNIVsHW7Mxjaq1m5nQQY4w90nhMQxtPjQi8nrrvSbF6vbhL3Mw5++0L5bU5GRE/S+BrxZH8udqbjiLW70SZ+zbtlVwwA6EmKtDhetWjm9b1rFo3N1p9EO8mbvt8lpY7YxEBzl946RDCvt3TX//2yoeAGtZSpc8rT8U4HglLBsTTA7J7XgEmXz/RmIPFmcehJFejgVCzProRROUwWYbztVPK94DuLwFyoAmbzoGXdOePbXXJC62lsHGgihAKGM6uk/vdYtAhto/OrywgaDwiQ1uvGhQHlPtXaOMsW0Xgs+0n6s6P7ApRRllbGGBljOA/jadfycs842a24z1KznQGq785gycWW0v6VsXczfwWNppuItJvNYUkxU546Hc1UiGfTDJleIRyrf0qx7CYWaU1r7IXPUdRuDTO2+gtvKcmlabe31jG5z6UVcA+AawmfWDo2Tiof72WnI5suo/hPd+uAgwMnWN52Lt+nb0J2Kv57+yPBeaX9u4ZXuy2/SUd+DudzD+ZdJjhjYrjJgkXV3WDjaFQnxh9Teo2IjZ+eKujT4bstivb7Upv1MMCjEd8/tZUUn8z9tHFX1jtOJgRtlRQkJWb7A2jVV8nIYW20YVxOd5D1kzNQ/+/HZ7bXLCHpIhKaPgsJE4YW67MSq2j76Iz+LrW7jSTaxnJrmzZD2611kryT3W+oyxDM42lAolCZzYYaTYbcwZFyya3VNivcegztX+n8JY+T+M1aE6YWQ+ZmHnwioch2tuRdhyGjW53NIKMY8fRu5ec0vDZnBGcoCr5rr5Of1DbGOEMXN8f/Ipaom+E3OW+6+3Wf9zjVl2PbcO3zCjBDF1p0jLk60XBT3gt9oCi//lEFlKHtW+OnAJuUXDG0b+inwLpZHTH0cwrigFRrtU8rIBU2IVz3Cf5gn9E5lZ0Dhiz1NrAimVym6oMhL3yeJztSLT3WGQrf0ypqYqfaZvjeJuEFidpsaE/EVjOUX4TsGodIsYxWGbIs0Olx1Q3V2gznM8Ii0KHcB67zTaDWGPIm5Fjfr/g412lniSETIQczP5C0chfHCkPGgmiYT+xvMnG0wJCxNuTUrTHqaspxMUPGi7XwG9BzZMsYflgLxlezfi+c2rF5NOgVHHUMCF52IefezSE//jXYG8wh+o07GW/ua+Q3IL4WfCApjFINvTD34LsuqP0jEd+rLNPvU3jgckub1lOMu2HDhg0bNmzYsGHDhg16+B80rYcoYhJ3PwAAAABJRU5ErkJggg=="
+                  alt="Github"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-                                   
-</body>
-
+  </body>
 </html>
